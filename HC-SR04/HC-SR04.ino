@@ -15,7 +15,7 @@ void loop() {
   digitalWrite(TRIG, LOW);
 
   float t = pulseIn(ECHO, HIGH);
-  float distance = t*0.017015;
+  float distance = t * 0.017015;
   Serial.print("Distance: ");
   Serial.println(distance);
   delay(500);
